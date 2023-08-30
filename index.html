@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content= "vice-width, initial-scale=1.0">
+    <meta name="author" content="Tooplate">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript"></script>
+    
+    <title>Web02</title>
+    
+
+</head>
+<body onload = "hidetabs();">
+     <nav id="navClass" class="mainNav">
+        <div>    
+                <p class="logoClass"><a><img src="images/logo-img.JPG" alt="potfolio image">My Potfolio</a></p>
+                <ul>   
+                <li>Personals</li>
+                <li>Academics</li>
+                <li>Career</li>
+                <li>Hobbis</li>
+                </ul>
+       </div> 
+                 </nav>
+              <section class="sectionClass1" id="section1">
+                <div id="personalsClass">
+                   <div id="imagg"><img src="images/profile img.jpg" alt="Test Image" /></div>
+            <h2>Mxolisi Mahlangu</h2>
+            <hr />
+            <div  id="Objective">
+                <p>I'm a student from Tshwane University of Pretoria (TUT) with the purpose to further
+                     my career in Information Technology with many IT abilities learned at the University, Currently
+                    searching for a company that can offer me Practical training or a position where 
+                    I can assist your company with any IT related tasks. Since I'm in need of 6 months training in the industry 
+                    to complete my final module which is industry based for me to graduate and get my N6 Qualification 
+                     from the University </p>
+                   </div>
+            <div id="identity">
+            <h3>Contact Details</h3>
+                  <p class="Identification">Cell: 066 052 8316</p>
+                       <p class="Identification">Home: 079 982 2013</p>
+                         <p class="Identification">Email: akasxova01@gmail.com</p>
+                        </div>
+                            <div id="Location">
+                                 <h3>Address</h3>
+                                 <p class="Location">1664 Rockdale</p>
+                                 <p class="Location">Middelburg, Mpumalanga</p>
+                                 <p class="Location">1055</p>
+                                </div>   
+                                    <div id="gender">
+                                        <h3>Gender</h3>
+                                        <p class="gender">Male</p>
+                                       </div>
+                     <div id ="signature">
+                         <h3>Signature</h3>
+                         <p>MXM</p>
+                           </div>
+                     </div>
+                     <div id ="Age">
+                        <h3>Age</h3>
+                        <p>24</p>
+                          </div>
+                          <div id="cvDownload">
+                           <a href="CV of Mxolisi Mahlangu.pdf"> Download CV</a>
+                          </div>
+                          <div id="idDownload">
+                            <a href="ID.pdf"> Download ID</a>
+                           </div>
+                 </section>
+     <section class=" sectionClass2" id="section2">
+       <div id ="academicsClass">
+           <div id ="academic">
+               <h3>Academics</h3>
+           </div>
+       <div id="SecSchool">
+           <h4>Secondary School </h4>
+           <img src="100x100.png" alt="Test Image" /> 
+               <h3>Middelburg Combined School</h3>
+                     <p>School Records</p>
+                     <input type="button" name="SchoolReq" onclick="showbtns1()" value="Subjects"><br/>
+                     <input type="button" class = "matricc" name="Matric" onclick="showbtns2()" value="Matric Certificate"><br/>
+                     <input type="button" class = "locc" name="ScLocation" onclick="showbtns();" value="School Info">
+                    <article id="MySubjects">
+                      <table border="1" cellspacing="0" width="100%" height="100%">  
+                         <tr>
+                           <th>No.</th>
+                           <th>Subjects </th>
+                           <th>% </th>
+                         </tr>
+                         <tr>
+                          <td>1</td>
+                          <td>English Home Language</td>
+                          <td>46%</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Afrikaans First Additional Language</td>
+                          <td>45%</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Life Orientation</td>
+                          <td>66%</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>History</td>
+                          <td>60%</td>
+                        </tr>
+                         <tr>
+                          <td>5</td>
+                          <td>History</td>
+                          <td>73%</td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>Life Scienses</td>
+                          <td>83%</td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td>Physical Scienses</td>
+                          <td>67%</td>
+                        </tr>
+                      </table>
+                     </article>
+                     <article id = "req">
+                      <embed src="Matric Certificate.pdf"  width="200" height="200" > 
+                        <h4>Zoom out if not fully visible </h4>
+                    </article>
+                    <article id="SLocation">
+                      <h2>School Address<h2>
+                          <h4>Nasaret</h4>
+                          <h4>Middelburg</h4>
+                          <h4>Mpumalanga</h4>
+                          <h4>1050</h4>
+                        <h2>Contact Details<h2>
+                          <h4>Email</h4>
+                          <h4>Tell</h4>  
+                      </article>  
+        </div>
+        <div id = "Tertiary">
+             <h4>Tertiary Institution</h4>
+             <img src="100x100.png" alt="Test Image" />
+                 <h3>Tshwane University of Pretoria</h3>
+                 <p>University Records</p>
+                 <input type="button" class="uMod" name="UniversityReq" onclick="showbtns5()" value="Modules"><br/>
+                 <input type="button" class="acRec" name="AcademicReq" onclick="showbtns4() " value="Academic Record"><br/>
+                 <input type="button" class="ulocc" name="Ulocation" onclick="showbtns3() " value="University Details"><br/>
+                 <input type="button" class="ulett" name="Uletter" onclick="showbtns6() " value="University Letter">
+              <article id="Modules">
+                  <table border="1" cellspacing="0" width="100%" height="100%">  
+                     <tr>
+                       <th>Year</th>
+                       <th>Modules </th>
+                       <th>% </th>
+                     </tr>
+                     <tr>
+                      <td>2019</td>
+                      <td>Founation Academic And Language Skills</td>
+                      <td>52%</td>
+                    </tr>
+                    <tr>
+                      <td>2019</td>
+                      <td>Foundation ICT Mathematical skills </td>
+                      <td>86%</td>
+                    </tr>
+                    <tr>
+                      <td>2019</td>
+                      <td>Found Information & Software Development Skills</td>
+                      <td>66%</td>
+                    </tr>
+                    <tr>
+                      <td>2019</td>
+                      <td>Foundation Presentation and Reporting Skills</td>
+                      <td>62%</td>
+                    </tr>
+                     <tr>
+                      <td>2020</td>
+                      <td>Computing Fundamentals IA</td>
+                      <td>70%</td>
+                    </tr>
+                    <tr>
+                      <td>2020 </td>
+                      <td>Computing Systems IA </td>
+                      <td>83%</td>
+                    </tr>
+                    <tr>
+                      <td>2020</td>
+                      <td>Development Software IA</td>
+                      <td>66%</td>
+                    </tr>
+                    <tr>
+                      <td>2020</td>
+                      <td>Computing Skills IA </td>
+                      <td>65%</td>
+                    </tr>
+                    <tr>
+                      <td>2020</td>
+                      <td>Computing Fundamentals IB</td>
+                      <td>54%</td>
+                    </tr>
+                    <tr>
+                      <td>2020</td>
+                      <td>Computing Systems IB</td>
+                      <td>55%</td>
+                    </tr>
+                    <tr>
+                      <td>2020</td>
+                      <td>Developement Software IB</td>
+                      <td>50%</td>
+                    </tr>
+                    <tr>
+                      <td>2020</td>
+                      <td>Computing Skills IB</td>
+                      <td>60%</td>
+                    </tr>
+                    <tr>
+                      <td>2021</td>
+                      <td>Information Systems IIA</td>
+                      <td>51%</td>
+                    </tr>
+                    <tr>
+                      <td>2021</td>
+                      <td>Systems Software IIA</td>
+                      <td>50%</td>
+                    </tr>
+                    <tr>
+                      <td>2021</td>
+                      <td>Technical Programming I</td>
+                      <td>56%</td>
+                    </tr>
+                    <tr>
+                      <td>2021</td>
+                      <td>Development Software IIB</td>
+                      <td>63%</td>
+                    </tr>
+                    <tr>
+                      <td>2021</td>
+                      <td>Information Systems IIB</td>
+                      <td>52%</td>
+                    </tr>
+                    <tr>
+                      <td>2021</td>
+                      <td>Systems Software IIB</td>
+                      <td>50%</td>
+                    </tr>
+                    <tr>
+                      <td>2021</td>
+                      <td>Technical Programming II</td>
+                      <td>61%</td>
+                    </tr>
+                    <tr>
+                      <td>2022</td>
+                      <td>Industry Exposure IIIA</td>
+                      <td>50%</td>
+                    </tr>
+                    <tr>
+                      <td>2022</td>
+                      <td>Information Systems IIIA</td>
+                      <td>68%</td>
+                    </tr>  
+                    <tr>
+                      <td>2022</td>
+                      <td>Development Software IIIA</td>
+                      <td>64%</td>
+                    </tr>
+                    <tr>
+                      <td>2022</td>
+                      <td>Information Systems IIIB</td>
+                      <td>50%</td>
+                    </tr>                  
+                    <tr>
+                      <td>2022</td>
+                      <td>Development Software IIIB</td>
+                      <td>50%</td>
+                    </tr>
+                  </table>
+                 </article> 
+                 <article id="ULocation">
+                 <div class="div1"> 
+                   <h2>Campus Address</h2>                     
+                      <div class="h44">
+                      <h4>PO Box 3211</h4>
+                      <h4>EMALAHLENI</h4>
+                      <h4>1035</h4>
+                    </div>
+                  </div>
+                    <div class="div2"> 
+                      <h4>19 OR Tambo Street</h4>
+                      <h4>EMALAHLENI</h4>
+                 <div class="gps"> <h4>GPS: (25<span id="span1" class="fa fa-circle-o"></span>52'44.40"S 
+                      29<span id="span1" class="fa fa-circle-o"></span>14'09.89"E)</h4>
+                   </div>
+                   </div>
+                   <div class="div3"> 
+                     <h2>Contact Details</h2>
+                     <div class="h4"> 
+                       <h4>Tel: 013 653 3100/4/6</h4>
+                      <h4>Fax: 013 653 3101</h4>
+                    </div>
+                    </div>  
+                  </article>
+                  <article id = "req2">
+                    <embed src="Accademic Record.pdf"  width="200" height="190" > 
+                      <h4>Zoom out if not fully visible </h4>
+                  </article>
+                  <article id = "Uletter">
+                    <embed src="University Letter for training.pdf"  width="200" height="200" > 
+                      <h4>Zoom out if not fully visible </h4>
+                  </article>
+      </div> 
+       </div>
+     </section>
+     <section class="sectionClass3" id="section3">
+       <div id=" Career">
+            <div id="CareerTop"> Career </div>            
+            <div id="Exper"> University Experience & Knowledge  </div>
+                <div id="ExperItems">
+                   <div id="Part1">
+                       <div id="HTML">
+                           <div class="logoImg"><img src="images/Capabitities/HTML5-1.png" alt="Test Image"></div> 
+                           <h3>HTML</h3>
+                           <img src="images/web pics/progress bar-3.2.jpg" alt="Test Image"><h5>97%</h5> 
+                       </div>
+                       <div id="CSS">
+                        <div class="logoImg"><img src="images/Capabitities/css3-1.png" alt="Test Image"></div>
+                            <h3>CSS</h3>
+                            <img src="images/web pics/progress bar-3.6.jpg" alt="Test Image"><h5>72%</h5>  
+                      </div>
+                      <div id="JavaScript">
+                        <div class="logoImg"><img src="images/Capabitities/JavaScript-1.jpeg" alt="Test Image"></div>
+                            <h3>JAVASCRIPT</h3>
+                            <img src="images/web pics/progress bar-3.5.jpg" alt="Test Image"><h5>41%</h5>
+                      </div> 
+                      <div id="Design">
+                        <div class="logoImg"><img src="images/Capabitities/Graphic Design-2.jpeg" alt="Test Image"></div>
+                        <h3>Graphic Design</h3>
+                        <img src="images/web pics/progress bar-3.7.jpg" alt="Test Image"><h5>64%</h5>   
+                  </div>
+                  <div id="C++">
+                    <div class="logoImg"><img src="images/Capabitities/C++-2.jpeg" alt="Test Image"></div>
+                    <h3>C++</h3>
+                    <img src="images/web pics/progress bar-3.2.jpg" alt="Test Image"><h5>84%</h5> 
+                    </div>
+                    <div id="SQL">
+                      <div class="logoImg"><img src="images/Capabitities/SQL-1.jpg" alt="Test Image"></div>
+                      <h3>SQL</h3>
+                      <img src="images/web pics/progress bar-3.2.jpg" alt="Test Image"><h5>90%</h5>       
+                    </div>
+                      </div>                         
+                      <div id="Part2">                    
+                      <div id="SQL">
+                        <div class="logoImg"><img src="images/Capabitities/PLSQL-2.jpeg" alt="Test Image"></div>
+                        <h3>PL-SQL</h3>
+                        <img src="images/web pics/progress bar-3.2.jpg" alt="Test Image"><h5>95%</h5>
+                    </div>
+                      <div id="MS_Office">
+                        <div class="logoImg"><img src="images/Capabitities/Word-1.png" alt="Test Image"></div>
+                            <h3>Word</h3>
+                            <img src="images/web pics/progress bar-3.4.jpg" alt="Test Image"><h5>99%</h5>
+                      </div>
+                      <div id="MS_Office">
+                        <div class="logoImg"><img src="images/Capabitities/Excel-1.png" alt="Test Image"></div>
+                        <h3>Excel</h3>
+                        <img src="images/web pics/progress bar-3.7.jpg" alt="Test Image"><h5>70%</h5>  
+                  </div>
+                  <div id="MS_Office">
+                    <div class="logoImg"><img src="images/Capabitities/PowerPoint-1.png" alt="Test Image"></div>
+                    <h3>Power Point</h3>
+                    <img src="images/web pics/progress bar-3.1.jpg" alt="Test Image"><h5>89%</h5>
+                  </div>
+                  <div id="MS_Office">
+                    <div class="logoImg"><img src="images/Capabitities/Access-1.png" alt="Test Image"></div>
+                    <h3>Access</h3>
+                    <img src="images/web pics/progress bar-3.2.jpg" alt="Test Image"><h5>88%</h5>     
+              </div>
+              <div id="MS_Office">
+                <div class="logoImg"><img src="images/Capabitities/SDLC-2.png" alt="Test Image"></div>
+                <h3>System Analysis</h3>
+                <img src="images/web pics/progress bar-3.2.jpg" alt="Test Image"><h5>94%</h5>    
+              </div>
+                      </div>                  
+               </div>
+            </div>
+            <div id="MoreItems">  
+            <div id="keys">  
+              <span id="keysL" class="fa fa-angle-left" onclick="leftScroll()"></span>
+              <span id="keysR" class="fa fa-angle-right" onclick="rightSroll()"></span>
+            </div>
+              <div id="myitemss">
+                  <li><img src="images/Capabitities/HTML5-1.png" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/css3-1.png" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/JavaScript-2.jpeg" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/Coding-1.jpg" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/C++-1.png" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/SQL-1.jpg" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/PLSQL-1.jpeg" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/PLSQL-2.jpeg" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/Graphic Design-1.jpeg" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/Graphic Design-2.jpeg" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/Graphic Design-3.jpeg" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/Photoshop-1.png" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/Word-1.png" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/Word-2.jpeg" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/PowerPoint-1.png" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/PowerPoint-2.png" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/Access-1.png" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/Access-2.png" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/SDLC-2.png" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/SDLC-1.png" alt="Test Image"></li>
+                  <li><img src="images/Capabitities/SDLC-3.png" alt="Test Image"></li>
+              </div>
+              <h4>All the things I can do</h4>
+            </div>      
+          </section>
+        <section class = "tabs-content">              
+          <form action="" name="form1">
+            <div id="abtus"> About Us </div>  
+           <div class="slide" id="sl2">
+            <div class="content second-content">
+                <ul>
+                  <li><a onclick = "hidetabs1();"><span class="fa fa-desktop" ></span></a></li>
+                  <li><a  onclick = "hidetabs2();"><span class='fa fa-users'></span></a></li>
+                  <li><a  onclick = "hidetabs3();"><span class='fa fa-mobile'></span></a></li>
+                </ul>
+            </div>
+                 <div class = "tabss">
+                  <article id="tabs-1">
+                    <h2>What We Offer?</h2>
+                    <span>System Developement Skills</span>
+                    <p>I'm a well taught system developer, I will offer all my developing to anyone who is willing to give me employement to further my training to graduate and get my NSC leve 6 deploma from the Univertity</p>
+                    <p>Not only will I offer my systems build skills but also the designs skills and every thing I was taught at the University of Technology ,I'm an individual who's starving for success and greatness</p>
+                  </article>
+                  <article id="tabs-2">
+                    <h2>What We Do?</h2>
+                    <span>Systems Build</span>
+                    <p>I'm an active developer not only I'm focused in Web Developement but also in all kinds of systems developements ,I also do progamms for windows and also capable of android applications development.</p>
+                    <p>I'm very talented in programming I just want a chance to prove myself in system developement , and surely put your company ahead industrially since I know most of the things required to do the job.</p>
+                  </article>
+                  <article id="tabs-3">
+                    <h2>Who We Are?</h2>
+                    <span>Third year TUT student</span>
+                    <p>I'm a very talented programmer looking for nothing but a chanece to prove myself in the industry a chance to achieve my long waited dream.</p> 
+                    <p>Programming means a lot to me since its been one of my child hood dreams, as a kid who was wondering how computer systems worked </p>
+                  </article>
+                </div>
+                </div>
+                </form>
+              </section>
+              <section id="Section4">
+                <div id="part4">
+                  <div id= "Fromyou" >Let us hear from you, leave us your email
+                    <p>Let us hear your thoughts</p></div>
+                  <img src="348x400.png" alt="Reviews Image">
+                  <div id="Inputs">
+                    <div id="Texts">
+                 <div id="nametext"><input type="text" name="user_id" value="Name"/> </div> 
+                  <div id="emailtext"><input type="text" name="use_email" value="Email" /> </div>
+                  <br/>
+                 </div>
+                  <div id="message"><input type="textarea" name="message" value="Message"/></div>
+                <div id="submit"><input type="submit" name="submit" value=" Send Message"/></div>
+                </div> 
+                </div>
+                <div id = "Section5">
+                  <h2>Testimonials</h2>
+                  <div id="Testinomials">
+                  <div id="testimon1">
+                    <img src="100x100.png" alt="Testimonials Image">
+                    <div id="testimText1">
+                      <p>name</p>
+                      <p>surname</p>
+                      <p>cell</p>
+                    </div>
+                  </div>
+                  <div id="testimon2">
+                    <img src="100x100.png" alt="Testimonials Image">
+                    <div id="testimText2">
+                      <p>name</p>
+                      <p>surname</p>
+                      <p>cell</p>
+                    </div>
+                  </div>
+                  <div id="testimon3">
+                    <img src="100x100.png" alt="Testimonials Image">
+                    <div id="testimText3">
+                      <p>name</p>
+                      <p>surname</p>
+                      <p>cell</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </section>
+              <footer>
+                web.com @ 2023
+              </footer>
+    <script src="script.js"></script> 
+</body>
+</html>
+
